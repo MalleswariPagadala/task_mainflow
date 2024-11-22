@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore different types of fruits with descriptions and images.">
+    <title>Types of Fruits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Delicious Fruits</h1>
+        <p>Explore the world of fruits!</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="fruit-list">
+            <article class="fruit" id="apple">
+                <h2>Apple</h2>
+                <img src="https://media.istockphoto.com/id/183422512/photo/fresh-red-apples-on-white-background.jpg?s=612x612&w=0&k=20&c=OmfmcQLh3mwp4pFVQn9Sr2U8VCyIgGtV6fuaDmd3Yrk="
+                    alt="Apple">
+                <p>Crunchy and sweet, apples are a healthy and refreshing snack!</p>
+                <button onclick="toggleDescription('apple')">Show Details</button>
+                <p class="fruit-details" id="appleDetails" style="display:none;">Apples come in various varieties like
+                    Fuji, Gala, and Granny Smith. Rich in fiber and vitamin C.</p>
+            </article>
+
+            <article class="fruit" id="banana">
+                <h2>Banana</h2>
+                <img src="https://media.istockphoto.com/id/1291262112/photo/banana.jpg?s=612x612&w=0&k=20&c=Na8FBcsTuhCRyuWLmbCV1FwOkvWLWFeVfQT-pd6tXk8="
+                    alt="Banana">
+                <p>Bananas are a great source of potassium and an excellent energy booster!</p>
+                <button onclick="toggleDescription('banana')">Show Details</button>
+                <p class="fruit-details" id="bananaDetails" style="display:none;">Bananas are rich in vitamins B6 and C,
+                    and they make a perfect snack for athletes and busy people.</p>
+            </article>
+
+            <article class="fruit" id="orange">
+                <h2>Orange</h2>
+                <img src="https://static8.depositphotos.com/1020804/884/i/950/depositphotos_8840885-stock-photo-orange-fruits-on-a-white.jpg"
+                    alt="Orange">
+                <p>Oranges are juicy and packed with vitamin C, perfect for boosting your immune system!</p>
+                <button onclick="toggleDescription('orange')">Show Details</button>
+                <p class="fruit-details" id="orangeDetails" style="display:none;">Oranges are not only delicious but
+                    also help in preventing colds and boosting skin health.</p>
+            </article>
+
+            <article class="fruit" id="strawberry">
+                <h2>Strawberry</h2>
+                <img src="https://thumbs.dreamstime.com/b/three-strawberries-strawberry-leaf-white-background-114284301.jpg"
+                    alt="Strawberry">
+                <p>Sweet and tangy, strawberries are a favorite for smoothies and desserts!</p>
+                <button onclick="toggleDescription('strawberry')">Show Details</button>
+                <p class="fruit-details" id="strawberryDetails" style="display:none;">Strawberries are full of
+                    antioxidants and vitamin C, and they're a great addition to any diet!</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Delicious Fruits</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
